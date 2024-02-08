@@ -1,95 +1,141 @@
 const perguntas = [
   {
-    pergunta: "Qual é o principal objetivo da fisioterapia motora?",
+    pergunta: "O que significa a sigla FTTH?",
     respostas: [
-      "Aumentar a capacidade pulmonar",
-      "Restaurar a função motora",
-      "Melhorar a visão"
+      "Fiber to the Home",
+      "Fast Transmission High Tech",
+      "Frequency Transmission for High-speed Home"
     ],
-    correta: 1
+    correta: 0
   },
   {
-    pergunta: "Qual técnica é comumente utilizada na fisioterapia para melhorar a amplitude de movimento?",
+    pergunta: "Qual é a principal vantagem da tecnologia FTTH em comparação com o cabo de cobre?",
     respostas: [
-      "Massagem cardíaca",
-      "Exercícios de fortalecimento",
-      "Acupuntura"
+      "Menor largura de banda",
+      "Maior latência",
+      "Maior largura de banda e menor latência"
     ],
     correta: 2
   },
   {
-    pergunta: "Em que condição clínica a fisioterapia motora pode ser aplicada?",
+    pergunta: "Quais são os principais componentes de um sistema FTTH?",
     respostas: [
-      "Insônia",
-      "Doença cardiovascular",
-      "Alergias sazonais"
-    ],
-    correta: 1
-  },
-  {
-    pergunta: "Quais são os benefícios da fisioterapia motora para pacientes com lesões neuromusculares?",
-    respostas: [
-      "Diminuição da mobilidade",
-      "Aumento da dor",
-      "Melhora na coordenação motora"
+      "Modem e roteador",
+      "Conversor óptico e cabo coaxial",
+      "Conversor óptico e cabo de fibra óptica"
     ],
     correta: 2
   },
   {
-    pergunta: "O que é a neuroplasticidade no contexto da fisioterapia motora?",
+    pergunta: "Qual é a principal função do OLT (Optical Line Terminal) em um sistema FTTH?",
     respostas: [
-      "Uma técnica de massagem",
-      "A capacidade do cérebro de se adaptar e remodelar",
-      "Um tipo de exercício cardiovascular"
+      "Converter sinais ópticos em sinais elétricos",
+      "Gerenciar e controlar a rede óptica",
+      "Conectar dispositivos finais à rede óptica"
     ],
     correta: 1
   },
   {
-    pergunta: "Quais atividades podem ser incluídas em um programa de fisioterapia motora para idosos?",
+    pergunta: "O que é GPON (Gigabit Passive Optical Network) em um contexto FTTH?",
     respostas: [
-      "Aulas de culinária",
-      "Exercícios de equilíbrio e marcha",
-      "Assistir televisão"
+      "Um tipo de cabo de cobre",
+      "Um padrão de rede óptica passiva",
+      "Um tipo de modem óptico"
     ],
     correta: 1
   },
   {
-    pergunta: "Qual é a importância da avaliação inicial na fisioterapia motora?",
+    pergunta: "Qual é a principal desvantagem da tecnologia FTTH?",
     respostas: [
-      "Não é relevante",
-      "Ajuda a identificar as necessidades do paciente",
-      "Atrasa o processo de recuperação"
+      "Custo elevado de implementação",
+      "Baixa velocidade de transmissão",
+      "Dificuldade de manutenção"
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "O que significa "last mile" em uma rede FTTH?",
+    respostas: [
+      "A última milha de cabo de cobre",
+      "A última porção da fibra óptica até a residência",
+      "A última etapa de implementação da rede"
     ],
     correta: 1
   },
   {
-    pergunta: "Quando a fisioterapia motora é frequentemente indicada após uma cirurgia?",
+    pergunta: "Qual é a principal razão para a adoção crescente da tecnologia FTTH?",
     respostas: [
-      "Nunca é indicada",
-      "Sempre é indicada",
-      "Depende do tipo de cirurgia e das necessidades do paciente"
+      "Menor segurança",
+      "Maior largura de banda e confiabilidade",
+      "Menor disponibilidade de serviço"
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "O que é PON (Passive Optical Network) em um contexto FTTH?",
+    respostas: [
+      "Um tipo de modem óptico",
+      "Uma rede ativa com amplificadores",
+      "Uma rede passiva sem componentes eletrônicos ativos"
     ],
     correta: 2
   },
   {
-    pergunta: "O que são exercícios isométricos na fisioterapia motora?",
+    pergunta: "Qual é a principal característica da fibra óptica que a torna adequada para a tecnologia FTTH?",
     respostas: [
-      "Exercícios que envolvem movimentos rápidos",
-      "Exercícios que envolvem contração muscular sem movimento",
-      "Exercícios de respiração profunda"
+      "Condutividade elétrica",
+      "Imunidade a interferências eletromagnéticas",
+      "Baixa largura de banda"
     ],
     correta: 1
   },
   {
-    pergunta: "Quais são os sinais de alerta durante uma sessão de fisioterapia motora?",
+    pergunta: "O que é ONT (Optical Network Terminal) em um contexto FTTH?",
     respostas: [
-      "Desconforto leve",
-      "Dor persistente e aumento da dor",
-      "Fadiga moderada"
+      "Um amplificador de sinal óptico",
+      "Um conversor óptico para sinal elétrico",
+      "Um dispositivo para conectar dispositivos finais à rede óptica"
     ],
     correta: 2
-  }
+  },
+  {
+    pergunta: "Qual é o principal benefício da tecnologia FTTH para os usuários finais?",
+    respostas: [
+      "Menor segurança",
+      "Maior largura de banda e menor latência",
+      "Menor custo de implementação"
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "O que é um splitter em uma rede FTTH?",
+    respostas: [
+      "Um dispositivo para aumentar a largura de banda",
+      "Um divisor óptico para distribuir sinais para vários usuários",
+      "Um tipo de cabo de fibra óptica"
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é a principal desvantagem da tecnologia FTTH em comparação com a DSL?",
+    respostas: [
+      "Menor confiabilidade",
+      "Maior latência",
+      "Custo inicial mais alto"
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "O que é NTD (Network Termination Device) em um contexto FTTH?",
+    respostas: [
+      "Um dispositivo para conectar dispositivos finais à rede óptica",
+      "Um tipo de cabo de cobre",
+      "Um amplificador de sinal óptico"
+    ],
+    correta: 0
+  },
 ];
+
 
   
   const quiz = document.querySelector('#quiz')
