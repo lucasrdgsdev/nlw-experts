@@ -54,7 +54,7 @@ const perguntas = [
     correta: 0
   },
   {
-    pergunta: "O que significa "last mile" em uma rede FTTH?",
+    pergunta: "O que significa 'last mile' em uma rede FTTH?",
     respostas: [
       "A última milha de cabo de cobre",
       "A última porção da fibra óptica até a residência",
